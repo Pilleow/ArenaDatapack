@@ -33,6 +33,6 @@ scoreboard objectives add RB dummy
 
 scoreboard players set @a DEATHS 0
 scoreboard players set @a RNG_MOD_1 9
-scoreboard players set @a RNG_MOD_2 5
+scoreboard players set @a RNG_MOD_2 6
 scoreboard players set @a RESET_TIMER 60
 scoreboard players set @a SPAWN_TIMER 60
