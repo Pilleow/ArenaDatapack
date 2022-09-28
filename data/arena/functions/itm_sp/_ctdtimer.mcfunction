@@ -1,0 +1,1 @@
+scoreboard players remove @a SPAWN_TIMER 1
