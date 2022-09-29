@@ -39,6 +39,6 @@ scoreboard objectives setdisplay list KILLS
 scoreboard objectives setdisplay belowName HP
 
 scoreboard players set @a DEATHS 0
-scoreboard players set @a RNG_MOD_1 9
-scoreboard players set @a RNG_MOD_2 8
+scoreboard players set @a RNG_MOD_1 11
+scoreboard players set @a RNG_MOD_2 10
 function arena:timer/_settimer

@@ -7,7 +7,7 @@ title @a[scores={DEATHS=1..}] times 10 20 20
 title @a[scores={DEATHS=1..}] title {"text":"You lose.", "color":"red"}
 execute as @a[scores={DEATHS=1..}] run playsound entity.ender_dragon.growl ambient @s ~ ~5 ~
 
-kill @e[type=!minecraft:player]
+kill @e[type=item]
 
 scoreboard players set @a SPAWN_TIMER 200
 scoreboard players set @a RESET_TIMER 160

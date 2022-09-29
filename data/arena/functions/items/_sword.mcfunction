@@ -1,1 +1,1 @@
-summon item ~ ~3 ~ {Item:{id:"diamond_sword",tag:{display:{Name:'{"text":"Malevolent Guardian","color":"#66ccff","bold":true,"italic":false}'},Enchantments:[{id:"unbreaking",lvl:10}],Damage:1511},Count:1b}}
+summon item ~ ~3 ~ {Item:{id:"diamond_sword",tag:{display:{Name:'{"text":"Malevolent Guardian","color":"#66ccff","bold":true,"italic":false}'},Enchantments:[{id:"unbreaking",lvl:10}],Damage:1536},Count:1b}}
