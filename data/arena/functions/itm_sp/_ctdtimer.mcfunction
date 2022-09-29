@@ -1,1 +1,1 @@
-scoreboard players remove @a SPAWN_TIMER 1
+scoreboard players remove @s SPAWN_TIMER 1

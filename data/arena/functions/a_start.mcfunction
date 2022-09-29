@@ -14,6 +14,7 @@ scoreboard objectives remove R6A
 scoreboard objectives remove R6B
 scoreboard objectives remove RA
 scoreboard objectives remove RB
+scoreboard objectives remove RC
 
 scoreboard objectives add DEATHS deathCount
 scoreboard objectives add RESET_TIMER dummy
@@ -30,9 +31,14 @@ scoreboard objectives add R6A custom:walk_one_cm
 scoreboard objectives add R6B custom:damage_dealt
 scoreboard objectives add RA dummy
 scoreboard objectives add RB dummy
+scoreboard objectives add RC dummy
+
+scoreboard objectives add KILLS playerKillCount
+scoreboard objectives add HP health
+scoreboard objectives setdisplay list KILLS
+scoreboard objectives setdisplay belowName HP
 
 scoreboard players set @a DEATHS 0
 scoreboard players set @a RNG_MOD_1 9
-scoreboard players set @a RNG_MOD_2 6
-scoreboard players set @a RESET_TIMER 60
-scoreboard players set @a SPAWN_TIMER 60
+scoreboard players set @a RNG_MOD_2 8
+function arena:timer/_settimer
