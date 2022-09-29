@@ -11,3 +11,9 @@ scoreboard players operation @s RB += @s R3
 scoreboard players operation @s RB -= @s R4
 scoreboard players operation @s RB -= @s R5
 scoreboard players operation @s RB += @s R6B
+
+scoreboard players operation @s RC -= @s R1
+scoreboard players operation @s RC += @s R2
+scoreboard players operation @s RC += @s R3
+scoreboard players operation @s RC -= @s R4
+scoreboard players operation @s RC += @s R5

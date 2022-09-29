@@ -1,10 +1,6 @@
 scoreboard objectives remove DEATHS 
 scoreboard objectives remove RESET_TIMER 
 scoreboard objectives remove SPAWN_TIMER
-scoreboard objectives remove RAND_INT_1 
-scoreboard objectives remove RAND_INT_2 
-scoreboard objectives remove RNG_MOD_1
-scoreboard objectives remove RNG_MOD_2
 scoreboard objectives remove R1
 scoreboard objectives remove R2
 scoreboard objectives remove R3
@@ -15,12 +11,22 @@ scoreboard objectives remove R6B
 scoreboard objectives remove RA
 scoreboard objectives remove RB
 scoreboard objectives remove RC
+scoreboard objectives remove SIZE_SPAWN_S1 
+scoreboard objectives remove SIZE_SPAWN_S2 
+scoreboard objectives remove SIZE_SPAWN_POTION 
+scoreboard objectives remove SIZE_SPAWN_POM 
+scoreboard objectives remove SIZE_WEATHER 
+scoreboard objectives remove SIZE_TIME 
 
 scoreboard objectives add DEATHS deathCount
 scoreboard objectives add RESET_TIMER dummy
 scoreboard objectives add SPAWN_TIMER dummy
-scoreboard objectives add RNG_MOD_1 dummy
-scoreboard objectives add RNG_MOD_2 dummy
+scoreboard objectives add SIZE_SPAWN_S1 dummy
+scoreboard objectives add SIZE_SPAWN_S2 dummy
+scoreboard objectives add SIZE_SPAWN_POTION dummy
+scoreboard objectives add SIZE_SPAWN_POM dummy
+scoreboard objectives add SIZE_WEATHER dummy
+scoreboard objectives add SIZE_TIME dummy
 
 scoreboard objectives add R1 custom:time_since_death
 scoreboard objectives add R2 custom:sprint_one_cm
@@ -39,6 +45,14 @@ scoreboard objectives setdisplay list KILLS
 scoreboard objectives setdisplay belowName HP
 
 scoreboard players set @a DEATHS 0
-scoreboard players set @a RNG_MOD_1 11
-scoreboard players set @a RNG_MOD_2 10
+scoreboard players set @a SIZE_SPAWN_S1 11
+scoreboard players set @a SIZE_SPAWN_S2 10
+scoreboard players set @a SIZE_SPAWN_POTION 6
+scoreboard players set @a SIZE_SPAWN_POM 7
+scoreboard players set @a SIZE_WEATHER 15
+scoreboard players set @a SIZE_TIME 4
+
+worldborder center -1 -13
+worldborder set 200 2
+
 function arena:timer/_settimer

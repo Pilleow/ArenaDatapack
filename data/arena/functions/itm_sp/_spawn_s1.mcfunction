@@ -1,4 +1,5 @@
-scoreboard players operation @s RA %= @s RNG_MOD_1
+execute as @s run function arena:itm_sp/_rng
+scoreboard players operation @s RA %= @s SIZE_SPAWN_S1
 
 execute as @s[scores={RA=0}] positioned -1 49 -1 run function arena:itm_sp/_spawn_s2
 execute as @s[scores={RA=1}] positioned 23 48 -1 run function arena:itm_sp/_spawn_s2

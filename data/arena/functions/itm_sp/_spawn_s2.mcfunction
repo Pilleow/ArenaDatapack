@@ -1,4 +1,4 @@
-scoreboard players operation @s RB %= @s RNG_MOD_2
+scoreboard players operation @s RB %= @s SIZE_SPAWN_S2
 
 execute as @s[scores={RB=0}] run function arena:items/_axe
 execute as @s[scores={RB=1}] run function arena:items/_bow
